@@ -129,113 +129,90 @@ while (i < numericArray.length) {
     es. [f, b, e] --> [6, 2, 5]
 */
 const charactersArray = ['g', 'n', 'u', 'z', 'd']
-let n = 0
+
 const posizione = []
 
-switch (true) {
-  case charactersArray[n] === 'a':
-    posizione.push(1)
-    n++
-    break
-  case charactersArray[n] === 'b':
-    posizione.push(2)
-    n++
-    break
+for (let n = 0; n < charactersArray.length; n++) {
+  switch (charactersArray[n]) {
+    case 'a':
+      posizione.push(1)
+      break
+    case 'b':
+      posizione.push(2)
+      break
 
-  case charactersArray[n] === 'c':
-    posizione.push(3)
-    n++
-    break
-  case charactersArray[n] === 'd':
-    posizione.push(4)
-    n++
-    break
-  case charactersArray[n] === 'e':
-    posizione.push(5)
-    n++
-    break
-  case 'f':
-    posizione.push(6)
-    n++
-    break
-  case charactersArray[n] === 'g':
-    posizione.push(7)
-    n++
-    break
-  case charactersArray[n] === 'h':
-    posizione.push(8)
-    n++
-    break
-  case charactersArray[n] === 'i':
-    posizione.push(9)
-    n++
-    break
-  case charactersArray[n] === 'j':
-    posizione.push(10)
-    n++
-    break
-  case charactersArray[n] === 'k':
-    posizione.push(11)
-    n++
-    break
-  case charactersArray[n] === 'l':
-    posizione.push(12)
-    n++
-    break
-  case charactersArray[n] === 'm':
-    posizione.push(13)
-    n++
-    break
-  case charactersArray[n] === 'n':
-    posizione.push(14)
-    n++
-    break
-  case charactersArray[n] === 'o':
-    posizione.push(15)
-    n++
-    break
-  case charactersArray[n] === 'p':
-    posizione.push(16)
-    n++
-    break
-  case charactersArray[n] === 'q':
-    posizione.push(17)
-    n++
-    break
-  case charactersArray[n] === 'r':
-    posizione.push(18)
-    n++
-    break
-  case charactersArray[n] === 's':
-    posizione.push(19)
-    n++
-    break
-  case charactersArray[n] === 't':
-    posizione.push(20)
-    n++
-    break
-  case charactersArray[n] === 'u':
-    posizione.push(21)
-    n++
-    break
-  case charactersArray[n] === 'v':
-    posizione.push(22)
-    n++
-    break
-  case charactersArray[n] === 'w':
-    posizione.push(23)
-    n++
-    break
-  case charactersArray[n] === 'y':
-    posizione.push(24)
-    n++
-    break
-  case charactersArray[n] === 'z':
-    posizione.push(25)
-    n++
-    break
-  default:
-    break
+    case 'c':
+      posizione.push(3)
+      break
+    case 'd':
+      posizione.push(4)
+      break
+    case 'e':
+      posizione.push(5)
+      break
+    case 'f':
+      posizione.push(6)
+      break
+    case 'g':
+      posizione.push(7)
+      break
+    case 'h':
+      posizione.push(8)
+      break
+    case 'i':
+      posizione.push(9)
+      break
+    case 'j':
+      posizione.push(10)
+      break
+    case 'k':
+      posizione.push(11)
+      break
+    case 'l':
+      posizione.push(12)
+      break
+    case 'm':
+      posizione.push(13)
+      break
+    case 'n':
+      posizione.push(14)
+      break
+    case 'o':
+      posizione.push(15)
+      break
+    case 'p':
+      posizione.push(16)
+      break
+    case 'q':
+      posizione.push(17)
+      break
+    case 'r':
+      posizione.push(18)
+      break
+    case 's':
+      posizione.push(19)
+      break
+    case 't':
+      posizione.push(20)
+      break
+    case 'u':
+      posizione.push(21)
+      break
+    case 'v':
+      posizione.push(22)
+      break
+    case 'w':
+      posizione.push(23)
+      break
+    case 'y':
+      posizione.push(24)
+      break
+    case 'z':
+      posizione.push(25)
+      break
+    default:
+      posizione.push(26)
+      break
+  }
 }
-
 console.log(posizione)
