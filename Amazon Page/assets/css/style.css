@@ -1,1 +1,112 @@
-/* Your styles here */
+/* #222F3F */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e9edee;
+}
+
+h1 {
+  font-size: 25px;
+  margin-top: 35px;
+}
+
+#top {
+  padding: 17px;
+  width: 10%;
+}
+.logoTop {
+  background-color: #222f3f;
+}
+
+.bar > p {
+  padding: 10px;
+  padding-left: 25px;
+  display: inline;
+  color: white;
+}
+.bar {
+  padding: 8px;
+  background-color: #364759;
+}
+
+.orange {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #f56600;
+  color: white;
+  text-align: center;
+}
+
+.banner {
+  background-image: url(../images/bg-image.png);
+  margin: 30px;
+  height: 128px;
+  text-align: center;
+  padding-top: 1px;
+  color: white;
+  font-weight: bold;
+}
+
+.banner > p {
+  margin-top: 20px;
+}
+
+.fit {
+  background-color: white;
+  margin: 30px;
+  padding: 10px;
+}
+
+.fit > img {
+  width: 370px;
+  height: 470px;
+  object-fit: cover;
+  margin: 30px;
+  margin-left: 35px;
+  margin-right: 35px;
+  border-radius: 20px;
+  box-shadow: 0px 2px 12px -1px #000000;
+}
+
+.quest {
+  margin: 30px;
+  text-align: center;
+}
+
+.quest > img {
+  width: 100%;
+}
+
+.quest > p {
+  margin: 5px;
+}
+
+.radio {
+  margin: 30px;
+  text-align: center;
+}
+
+.radio > img {
+  width: 100%;
+}
+.radio > p {
+  margin: 5px;
+}
+
+.back {
+  display: block;
+  text-align: center;
+  background-color: #364759;
+  padding: 15px;
+  color: white;
+}
+
+.logoBott {
+  background-color: #222f3f;
+  text-align: center;
+}
+
+.logoBott > img {
+  width: 10%;
+  padding: 60px;
+}
